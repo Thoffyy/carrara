@@ -433,5 +433,10 @@ cursor: pointer;
   }
  
 
+.retanglegreen{
 
+    background-color:#84c225;
+    height: 30px;
+    width: 100%;
+}
 
