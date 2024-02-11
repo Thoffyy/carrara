@@ -254,7 +254,7 @@
 
 
 /* <!-- <------------------------------------------------Bank/Top offer start  ------------------------------------------------> */
-#bank_offer,#top_offer{
+#pix,#top_offer{
     display: flex;
     width: 70%;
     margin: auto;
@@ -265,17 +265,17 @@ h3{
     margin-top: 20px;
     text-align: center;
 }
-#bank_offer>div,#top_offer>div {
+#pix>div,#top_offer>div {
     width: 24%;
 }
-#bank_offer>div:hover,#top_offer>div:hover{
+#pix>div:hover,#top_offer>div:hover{
     cursor: pointer;
     width: 25%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     
     
 }
-#bank_offer>div>img ,#top_offer>div>img{
+#pix>div>img ,#top_offer>div>img{
     width: 100%;
 }
 hr{
@@ -283,6 +283,8 @@ hr{
     margin: auto;
     margin-bottom: 16px;
 }
+
+
 
 /* <!-- <------------------------------------------------Bank/Top offer start  ------------------------------------------------> */
 /* <!-- <------------------------------------------------Fruits and vegitables start  ------------------------------------------------> */
