@@ -6,3 +6,4 @@ resolucao imagem primeiro carrousel:
 
 
 
+<b>colocar o codigo pix em algum local da pagina! <b>
