@@ -263,7 +263,7 @@
 }
 
 #pix{
-    display: flexbox;
+    display: flex;
     width: 70%;
     margin-left: 42%;
 
