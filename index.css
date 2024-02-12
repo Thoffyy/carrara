@@ -254,13 +254,22 @@
 
 
 /* <!-- <------------------------------------------------Bank/Top offer start  ------------------------------------------------> */
-#pix,#top_offer{
+#top_offer{
     display: flex;
     width: 70%;
     margin: auto;
     margin-top: 20px;
     justify-content: space-between
 }
+
+#pix{
+    display: flexbox;
+    width: 70%;
+    margin-left: 42%;
+
+}
+
+
 h3{
     margin-top: 20px;
     text-align: center;
