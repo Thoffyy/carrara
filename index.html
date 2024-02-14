@@ -18,7 +18,24 @@
 </head>
 
 <body>
-    <!-- <................................................................Nav bar html start....................................................> -->
+
+<!-- inicio offcanvas pao -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Pães de Sal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        <div>
+            Os pães de sal são repostos todos os dias entre as 15:00 e as 15:30. <br> <br> A quantidade pode variar de acordo com a demanda <br> <br> Faça uma reserva de pães em caso de uma quantidade acima de 10 <a href="https://api.whatsapp.com/send/?phone=5532999810414&text&type=phone_number&app_absent=0">enviando uma mensagem no Whatsapp</a>
+        </div>
+        </div>
+    </div>
+
+    <!-- final offcanvas pao -->
+
+
+    <!--................................................................Nav bar html start....................................................> -->
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
@@ -48,7 +65,11 @@
                           <li><a class="dropdown-item" href="#belezaA">Beleza e Higiene</a></li>
                           <li><a class="dropdown-item" href="#ccA">Casa e Cozinha</a></li>     
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Pães de Sal</a></li>
+                        
+                          <li><a class="dropdown-item" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Pães de Sal</a></li>
+                        
+
+                        
                         </ul>
                       </li>
               
